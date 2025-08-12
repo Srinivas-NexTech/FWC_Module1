@@ -26,12 +26,12 @@
 \begin{center}
 $$\textbf{\Huge GATE EE 2010 PAPER}$$
 \end{center}
-The following karnaugh map represents a function \(F\)
+The following karnaugh map represents a function \(F\)\\
 \begin{figure}[h!]
     \centering
     % First image
     \includegraphics[width=0.6\textwidth]{Kmap.jpg}
-\end{figure}
+\end{figure}\\
 \textbf{52.} A minimized form of the function \( F \) is
 \begin{enumerate}[label=(\Alph*)]
     \item \( F = XY + YZ \)
@@ -59,9 +59,21 @@ $$
     % Second image
     \includegraphics[width=0.8\textwidth]{DigitalCircuits.jpg}
 \end{figure}
-\newpage\textbf{Solution:}
-  We know that the function \(F=\overline{X} \, \overline{Y}+YZ\)\\ 
-  Based on the function\(F\) the realized circuit is  
+\newpage
+\textbf{Solution:}
+
+\begin{enumerate}
+    \item We know that the function:
+    $ F = \overline{X} \, \overline{Y} + YZ $
+    
+    \item Based on the function \(F\), the realized circuit is:
+    \begin{itemize}
+        \item AND gate for \(\overline{X} \, \overline{Y}\)
+        \item AND gate for \(YZ\)
+        \item OR gate to combine both outputs
+    \end{itemize}
+\end{enumerate}
+  
 \begin{figure}[h!]
     \centering
     % Third image
