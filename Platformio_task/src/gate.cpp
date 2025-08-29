@@ -95,7 +95,7 @@ C=(P&&!Q) || (P&&!R) || (!P&&Q&&R);
 B=(!Q&&R) || (Q&&!R);
 A=(!R);
 disp_7447(D,C,B,A);
-F=(!P&&Q) || (P&&Q&&!R) || (!Q&&R);
+F=(!P&&R) || (P&&Q&&!R) || (!Q&&R);
 if(F==1){
 digitalWrite(5,HIGH);
 }
