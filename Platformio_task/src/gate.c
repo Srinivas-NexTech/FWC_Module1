@@ -1,5 +1,5 @@
-#include<Arduino.h>
-/*int P,Q,R;
+/*#include<Arduino.h>
+int P,Q,R;
 int F;
 void setup(){
 pinMode(2,INPUT);
