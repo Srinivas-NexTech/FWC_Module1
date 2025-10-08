@@ -1,0 +1,280 @@
+#Timing report of worst 9 path(s)
+# Unit scale: 1e-09 seconds
+# Output precision: 3
+
+#Path 1
+Startpoint: a_dff_Q.QZ[0] (Q_FRAG clocked by $auto$clkbufmap.cc:247:execute$1065)
+Endpoint  : out:seg(6).outpad[0] (.output clocked by $auto$clkbufmap.cc:247:execute$1065)
+Path Type : setup
+
+Point                                                                              Incr      Path
+-------------------------------------------------------------------------------------------------
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+$auto$clkbufmap.cc:252:execute$1066.I_DAT[0] (SDIOMUX_CELL)                       0.000     0.000
+a_dff_Q.QCK[0] (Q_FRAG)                                                          23.179    23.179
+a_dff_Q.QZ[0] (Q_FRAG) [clock-to-output]                                          1.701    24.880
+seg_LUT2_O_1.t_frag.XAB[0] (T_FRAG)                                               2.712    27.593
+seg_LUT2_O_1.t_frag.XZ[0] (T_FRAG)                                                1.251    28.844
+$iopadmap$inc_dec.seg_6.O_DAT[0] (SDIOMUX_CELL)                                  11.188    40.032
+$iopadmap$inc_dec.seg_6.O_PAD_$out[0] (SDIOMUX_CELL)                              9.750    49.782
+out:seg(6).outpad[0] (.output)                                                    0.000    49.782
+data arrival time                                                                          49.782
+
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+clock uncertainty                                                                 0.000     0.000
+output external delay                                                             0.000     0.000
+data required time                                                                          0.000
+-------------------------------------------------------------------------------------------------
+data required time                                                                          0.000
+data arrival time                                                                         -49.782
+-------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                          -49.782
+
+
+#Path 2
+Startpoint: a_dff_Q.QZ[0] (Q_FRAG clocked by $auto$clkbufmap.cc:247:execute$1065)
+Endpoint  : out:seg(4).outpad[0] (.output clocked by $auto$clkbufmap.cc:247:execute$1065)
+Path Type : setup
+
+Point                                                                              Incr      Path
+-------------------------------------------------------------------------------------------------
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+$auto$clkbufmap.cc:252:execute$1066.I_DAT[0] (SDIOMUX_CELL)                       0.000     0.000
+a_dff_Q.QCK[0] (Q_FRAG)                                                          23.179    23.179
+a_dff_Q.QZ[0] (Q_FRAG) [clock-to-output]                                          1.701    24.880
+seg_LUT2_O.t_frag.XSL[0] (T_FRAG)                                                 2.508    27.388
+seg_LUT2_O.t_frag.XZ[0] (T_FRAG)                                                  1.462    28.850
+$iopadmap$inc_dec.seg_4.O_DAT[0] (BIDIR_CELL)                                     6.661    35.512
+$iopadmap$inc_dec.seg_4.O_PAD_$out[0] (BIDIR_CELL)                                9.809    45.321
+out:seg(4).outpad[0] (.output)                                                    0.000    45.321
+data arrival time                                                                          45.321
+
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+clock uncertainty                                                                 0.000     0.000
+output external delay                                                             0.000     0.000
+data required time                                                                          0.000
+-------------------------------------------------------------------------------------------------
+data required time                                                                          0.000
+data arrival time                                                                         -45.321
+-------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                          -45.321
+
+
+#Path 3
+Startpoint: a_dff_Q.QZ[0] (Q_FRAG clocked by $auto$clkbufmap.cc:247:execute$1065)
+Endpoint  : out:seg(3).outpad[0] (.output clocked by $auto$clkbufmap.cc:247:execute$1065)
+Path Type : setup
+
+Point                                                                              Incr      Path
+-------------------------------------------------------------------------------------------------
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+$auto$clkbufmap.cc:252:execute$1066.I_DAT[0] (SDIOMUX_CELL)                       0.000     0.000
+a_dff_Q.QCK[0] (Q_FRAG)                                                          23.179    23.179
+a_dff_Q.QZ[0] (Q_FRAG) [clock-to-output]                                          1.701    24.880
+seg_LUT2_O_1.t_frag.XAB[0] (T_FRAG)                                               2.712    27.593
+seg_LUT2_O_1.t_frag.XZ[0] (T_FRAG)                                                1.251    28.844
+$iopadmap$inc_dec.seg_3.O_DAT[0] (BIDIR_CELL)                                     6.312    35.155
+$iopadmap$inc_dec.seg_3.O_PAD_$out[0] (BIDIR_CELL)                                9.809    44.964
+out:seg(3).outpad[0] (.output)                                                    0.000    44.964
+data arrival time                                                                          44.964
+
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+clock uncertainty                                                                 0.000     0.000
+output external delay                                                             0.000     0.000
+data required time                                                                          0.000
+-------------------------------------------------------------------------------------------------
+data required time                                                                          0.000
+data arrival time                                                                         -44.964
+-------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                          -44.964
+
+
+#Path 4
+Startpoint: a_dff_Q.QZ[0] (Q_FRAG clocked by $auto$clkbufmap.cc:247:execute$1065)
+Endpoint  : out:seg(1).outpad[0] (.output clocked by $auto$clkbufmap.cc:247:execute$1065)
+Path Type : setup
+
+Point                                                                              Incr      Path
+-------------------------------------------------------------------------------------------------
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+$auto$clkbufmap.cc:252:execute$1066.I_DAT[0] (SDIOMUX_CELL)                       0.000     0.000
+a_dff_Q.QCK[0] (Q_FRAG)                                                          23.179    23.179
+a_dff_Q.QZ[0] (Q_FRAG) [clock-to-output]                                          1.701    24.880
+seg_LUT2_O_2.t_frag.XSL[0] (T_FRAG)                                               2.422    27.302
+seg_LUT2_O_2.t_frag.XZ[0] (T_FRAG)                                                1.406    28.708
+$iopadmap$inc_dec.seg_1.O_DAT[0] (BIDIR_CELL)                                     4.391    33.100
+$iopadmap$inc_dec.seg_1.O_PAD_$out[0] (BIDIR_CELL)                                9.809    42.909
+out:seg(1).outpad[0] (.output)                                                    0.000    42.909
+data arrival time                                                                          42.909
+
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+clock uncertainty                                                                 0.000     0.000
+output external delay                                                             0.000     0.000
+data required time                                                                          0.000
+-------------------------------------------------------------------------------------------------
+data required time                                                                          0.000
+data arrival time                                                                         -42.909
+-------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                          -42.909
+
+
+#Path 5
+Startpoint: a_dff_Q.QZ[0] (Q_FRAG clocked by $auto$clkbufmap.cc:247:execute$1065)
+Endpoint  : out:led.outpad[0] (.output clocked by $auto$clkbufmap.cc:247:execute$1065)
+Path Type : setup
+
+Point                                                                              Incr      Path
+-------------------------------------------------------------------------------------------------
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+$auto$clkbufmap.cc:252:execute$1066.I_DAT[0] (SDIOMUX_CELL)                       0.000     0.000
+a_dff_Q.QCK[0] (Q_FRAG)                                                          23.179    23.179
+a_dff_Q.QZ[0] (Q_FRAG) [clock-to-output]                                          1.701    24.880
+led_LUT2_O.t_frag.XSL[0] (T_FRAG)                                                 2.880    27.760
+led_LUT2_O.t_frag.XZ[0] (T_FRAG)                                                  1.462    29.223
+$iopadmap$inc_dec.led.O_DAT[0] (BIDIR_CELL)                                       3.867    33.090
+$iopadmap$inc_dec.led.O_PAD_$out[0] (BIDIR_CELL)                                  9.809    42.899
+out:led.outpad[0] (.output)                                                       0.000    42.899
+data arrival time                                                                          42.899
+
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+clock uncertainty                                                                 0.000     0.000
+output external delay                                                             0.000     0.000
+data required time                                                                          0.000
+-------------------------------------------------------------------------------------------------
+data required time                                                                          0.000
+data arrival time                                                                         -42.899
+-------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                          -42.899
+
+
+#Path 6
+Startpoint: b_dff_Q.QZ[0] (Q_FRAG clocked by $auto$clkbufmap.cc:247:execute$1065)
+Endpoint  : out:seg(2).outpad[0] (.output clocked by $auto$clkbufmap.cc:247:execute$1065)
+Path Type : setup
+
+Point                                                                              Incr      Path
+-------------------------------------------------------------------------------------------------
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+$auto$clkbufmap.cc:252:execute$1066.I_DAT[0] (SDIOMUX_CELL)                       0.000     0.000
+b_dff_Q.QCK[0] (Q_FRAG)                                                          22.329    22.329
+b_dff_Q.QZ[0] (Q_FRAG) [clock-to-output]                                          1.701    24.030
+seg_LUT1_O.f_frag.FS[0] (F_FRAG)                                                  2.238    26.268
+seg_LUT1_O.f_frag.FZ[0] (F_FRAG)                                                  0.612    26.880
+$iopadmap$inc_dec.seg_2.O_DAT[0] (BIDIR_CELL)                                     4.924    31.804
+$iopadmap$inc_dec.seg_2.O_PAD_$out[0] (BIDIR_CELL)                                9.809    41.613
+out:seg(2).outpad[0] (.output)                                                    0.000    41.613
+data arrival time                                                                          41.613
+
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+clock uncertainty                                                                 0.000     0.000
+output external delay                                                             0.000     0.000
+data required time                                                                          0.000
+-------------------------------------------------------------------------------------------------
+data required time                                                                          0.000
+data arrival time                                                                         -41.613
+-------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                          -41.613
+
+
+#Path 7
+Startpoint: a_dff_Q.QZ[0] (Q_FRAG clocked by $auto$clkbufmap.cc:247:execute$1065)
+Endpoint  : out:seg(0).outpad[0] (.output clocked by $auto$clkbufmap.cc:247:execute$1065)
+Path Type : setup
+
+Point                                                                              Incr      Path
+-------------------------------------------------------------------------------------------------
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+$auto$clkbufmap.cc:252:execute$1066.I_DAT[0] (SDIOMUX_CELL)                       0.000     0.000
+a_dff_Q.QCK[0] (Q_FRAG)                                                          23.179    23.179
+a_dff_Q.QZ[0] (Q_FRAG) [clock-to-output]                                          1.701    24.880
+$iopadmap$inc_dec.seg.O_DAT[0] (BIDIR_CELL)                                       3.661    28.542
+$iopadmap$inc_dec.seg.O_PAD_$out[0] (BIDIR_CELL)                                  9.809    38.351
+out:seg(0).outpad[0] (.output)                                                    0.000    38.351
+data arrival time                                                                          38.351
+
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+clock uncertainty                                                                 0.000     0.000
+output external delay                                                             0.000     0.000
+data required time                                                                          0.000
+-------------------------------------------------------------------------------------------------
+data required time                                                                          0.000
+data arrival time                                                                         -38.351
+-------------------------------------------------------------------------------------------------
+slack (VIOLATED)                                                                          -38.351
+
+
+#Path 8
+Startpoint: B.inpad[0] (.input clocked by $auto$clkbufmap.cc:247:execute$1065)
+Endpoint  : b_dff_Q.QD[0] (Q_FRAG clocked by $auto$clkbufmap.cc:247:execute$1065)
+Path Type : setup
+
+Point                                                                              Incr      Path
+-------------------------------------------------------------------------------------------------
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+input external delay                                                              0.000     0.000
+B.inpad[0] (.input)                                                               0.000     0.000
+$iopadmap$inc_dec.B.I_PAD_$inp[0] (BIDIR_CELL)                                    0.000     0.000
+$iopadmap$inc_dec.B.I_DAT[0] (BIDIR_CELL)                                        10.958    10.958
+b_dff_Q.QD[0] (Q_FRAG)                                                            4.629    15.587
+data arrival time                                                                          15.587
+
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+$auto$clkbufmap.cc:252:execute$1066.I_DAT[0] (SDIOMUX_CELL)                       0.000     0.000
+b_dff_Q.QCK[0] (Q_FRAG)                                                          22.329    22.329
+clock uncertainty                                                                 0.000    22.329
+cell setup time                                                                   0.105    22.434
+data required time                                                                         22.434
+-------------------------------------------------------------------------------------------------
+data required time                                                                         22.434
+data arrival time                                                                         -15.587
+-------------------------------------------------------------------------------------------------
+slack (MET)                                                                                 6.847
+
+
+#Path 9
+Startpoint: A.inpad[0] (.input clocked by $auto$clkbufmap.cc:247:execute$1065)
+Endpoint  : a_dff_Q.QD[0] (Q_FRAG clocked by $auto$clkbufmap.cc:247:execute$1065)
+Path Type : setup
+
+Point                                                                              Incr      Path
+-------------------------------------------------------------------------------------------------
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+input external delay                                                              0.000     0.000
+A.inpad[0] (.input)                                                               0.000     0.000
+$iopadmap$inc_dec.A.I_PAD_$inp[0] (BIDIR_CELL)                                    0.000     0.000
+$iopadmap$inc_dec.A.I_DAT[0] (BIDIR_CELL)                                        10.958    10.958
+a_dff_Q.QD[0] (Q_FRAG)                                                            4.651    15.609
+data arrival time                                                                          15.609
+
+clock $auto$clkbufmap.cc:247:execute$1065 (rise edge)                             0.000     0.000
+clock source latency                                                              0.000     0.000
+$auto$clkbufmap.cc:252:execute$1066.I_DAT[0] (SDIOMUX_CELL)                       0.000     0.000
+a_dff_Q.QCK[0] (Q_FRAG)                                                          23.179    23.179
+clock uncertainty                                                                 0.000    23.179
+cell setup time                                                                   0.105    23.284
+data required time                                                                         23.284
+-------------------------------------------------------------------------------------------------
+data required time                                                                         23.284
+data arrival time                                                                         -15.609
+-------------------------------------------------------------------------------------------------
+slack (MET)                                                                                 7.675
+
+
+#End of timing report

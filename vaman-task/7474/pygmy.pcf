@@ -1,0 +1,12 @@
+set_io A 5
+set_io B 6
+set_io clk 10
+set_io led 3
+set_io seg(0) 64
+set_io seg(1) 62
+set_io seg(2) 63
+set_io seg(3) 61
+set_io seg(4) 59
+set_io seg(5) 57
+set_io seg(6) 13
+

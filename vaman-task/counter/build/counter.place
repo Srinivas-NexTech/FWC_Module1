@@ -1,0 +1,19 @@
+Netlist_File: counter.net Netlist_ID: SHA256:e1875980cff52ad6b75c9ac4ab0fcb74e34cf47a6886a37164a238248b6a8b07
+Array size: 39 x 35 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+a_LUT2_O.t_frag	8	7	0	#0
+c_LUT2_O.t_frag	16	4	0	#1
+$iopadmap$counter.a	14	3	0	#2
+$iopadmap$counter.c	18	3	0	#3
+$iopadmap$counter.d	20	3	0	#4
+$iopadmap$counter.f	26	3	0	#5
+$iopadmap$counter.led	6	3	0	#6
+$iopadmap$counter.e	24	3	0	#7
+$iopadmap$counter.g	22	3	0	#8
+A		12	3	0	#9
+B		4	3	0	#10
+$iopadmap$counter.b	16	3	0	#11
+$false		3	1	0	#12
+$true		2	1	0	#13

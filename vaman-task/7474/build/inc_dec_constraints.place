@@ -1,0 +1,11 @@
+A            6   3  0  # set_io A 5
+B            8   3  0  # set_io B 6
+clk          2  28  0  # set_io clk 10
+$iopadmap$inc_dec.led  12   3  0  # set_io led 3
+$iopadmap$inc_dec.seg  14   3  0  # set_io seg(0) 64
+$iopadmap$inc_dec.seg_1  16   3  0  # set_io seg(1) 62
+$iopadmap$inc_dec.seg_2  18   3  0  # set_io seg(2) 63
+$iopadmap$inc_dec.seg_3  20   3  0  # set_io seg(3) 61
+$iopadmap$inc_dec.seg_4  24   3  0  # set_io seg(4) 59
+$iopadmap$inc_dec.seg_5  26   3  0  # set_io seg(5) 57
+$iopadmap$inc_dec.seg_6   1  29  0  # set_io seg(6) 13

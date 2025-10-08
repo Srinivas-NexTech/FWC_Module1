@@ -1,0 +1,12 @@
+#Block Name x   y   z    pcf_line
+#------- --  --  -    ----
+A        12   3  0  # set_io A 3
+B         4   3  0  # set_io B 4
+$iopadmap$disp_dec.led   6   3  0  # set_io led  5
+$iopadmap$disp_dec.a  14   3  0  # set_io a 64
+$iopadmap$disp_dec.b  16   3  0  # set_io b 62
+$iopadmap$disp_dec.c  18   3  0  # set_io c 63
+$iopadmap$disp_dec.d  20   3  0  # set_io d 61
+$iopadmap$disp_dec.e  24   3  0  # set_io e 59
+$iopadmap$disp_dec.f  26   3  0  # set_io f 57
+$iopadmap$disp_dec.g  22   3  0  # set_io g 60

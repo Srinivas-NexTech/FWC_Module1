@@ -1,0 +1,10 @@
+set_io A 3
+set_io B 4
+set_io led  5
+set_io a 64
+set_io b 62
+set_io c 63
+set_io d 61
+set_io e 59
+set_io f 57
+set_io g 60

@@ -1,0 +1,10 @@
+A       4   3  0  # set_io A 4
+B       6   3  0  # set_io B 5
+$iopadmap$sevenseg.Y   8   3  0  # set_io Y 6
+$iopadmap$sevenseg.a  12   3  0  # set_io a 3
+$iopadmap$sevenseg.b  14   3  0  # set_io b 64
+$iopadmap$sevenseg.c  16   3  0  # set_io c 62
+$iopadmap$sevenseg.d  18   3  0  # set_io d 63
+$iopadmap$sevenseg.e  20   3  0  # set_io e 61
+$iopadmap$sevenseg.f  24   3  0  # set_io f 59
+$iopadmap$sevenseg.g  26   3  0  # set_io g 57

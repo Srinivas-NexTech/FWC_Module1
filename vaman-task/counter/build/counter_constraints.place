@@ -1,0 +1,10 @@
+A        12   3  0  # set_io A 3
+B         4   3  0  # set_io B 4
+$iopadmap$counter.led   6   3  0  # set_io led  5
+$iopadmap$counter.a  14   3  0  # set_io a 64
+$iopadmap$counter.b  16   3  0  # set_io b 62
+$iopadmap$counter.c  18   3  0  # set_io c 63
+$iopadmap$counter.d  20   3  0  # set_io d 61
+$iopadmap$counter.e  24   3  0  # set_io e 59
+$iopadmap$counter.f  26   3  0  # set_io f 57
+$iopadmap$counter.g  22   3  0  # set_io g 60

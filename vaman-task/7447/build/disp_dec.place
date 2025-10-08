@@ -1,0 +1,19 @@
+Netlist_File: disp_dec.net Netlist_ID: SHA256:7762181e56c0cd7bffd796131043eeea71060f52ae3429804f125e4c17014073
+Array size: 39 x 35 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+a_LUT2_O.t_frag	8	7	0	#0
+c_LUT2_O.t_frag	16	4	0	#1
+$iopadmap$disp_dec.a	14	3	0	#2
+$iopadmap$disp_dec.c	18	3	0	#3
+$iopadmap$disp_dec.d	20	3	0	#4
+$iopadmap$disp_dec.f	26	3	0	#5
+$iopadmap$disp_dec.led	6	3	0	#6
+$iopadmap$disp_dec.e	24	3	0	#7
+$iopadmap$disp_dec.g	22	3	0	#8
+A		12	3	0	#9
+B		4	3	0	#10
+$iopadmap$disp_dec.b	16	3	0	#11
+$false		3	1	0	#12
+$true		2	1	0	#13
