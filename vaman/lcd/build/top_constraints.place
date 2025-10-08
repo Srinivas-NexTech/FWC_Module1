@@ -1,0 +1,6 @@
+$iopadmap$helloworldfpga.LCD_E  22   3  0  # set_io LCD_E 60
+$iopadmap$helloworldfpga.LCD_RS  24   3  0  # set_io LCD_RS 59
+$iopadmap$helloworldfpga.DATA_3  26   3  0  # set_io DATA(7) 57
+$iopadmap$helloworldfpga.DATA_2  28   3  0  # set_io DATA(6) 56
+$iopadmap$helloworldfpga.DATA_1  30   3  0  # set_io DATA(5) 55
+$iopadmap$helloworldfpga.DATA  32   3  0  # set_io DATA(4) 54

@@ -1,0 +1,10 @@
+Netlist_File: top.net Netlist_ID: SHA256:cd814d5ed7abcb8462b549ac4249c170db575d765d932fe531772830eedc1ef6
+Array size: 39 x 35 logic blocks
+
+#block name	x	y	subblk	block number
+#----------	--	--	------	------------
+$iopadmap$helloworldfpga.blueled	30	32	0	#0
+$iopadmap$helloworldfpga.greenled	24	32	0	#1
+$iopadmap$helloworldfpga.redled	22	32	0	#2
+$false		3	1	0	#3
+$true		2	1	0	#4
