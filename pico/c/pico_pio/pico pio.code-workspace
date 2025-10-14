@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "blink"
+		},
+		{
+			"name": "sevenseg",
+			"path": "sevenseg"
+		},
+		{
+			"name": "7447",
+			"path": "7447"
+		},
+		{
+			"name": "7474",
+			"path": "7474"
+		},
+		{
+			"name": "kmap",
+			"path": "kmap"
+		},
+		{
+			"name": "fsm",
+			"path": "fsm"
+		},
+		{
+			"name": "lcd",
+			"path": "lcd"
+		}
+	],
+	"settings": {}
+}

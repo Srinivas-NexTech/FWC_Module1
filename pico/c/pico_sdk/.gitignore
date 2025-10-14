@@ -1,0 +1,12 @@
+# Ignore everything inside build folders
+**/build/*
+
+# But keep only final binary files
+!**/build/*.bin
+!**/build/*.uf2
+!**/build/*.hex
+!**/build/*.elf
+
+# Keep directories so Git can traverse
+!**/build/
+
